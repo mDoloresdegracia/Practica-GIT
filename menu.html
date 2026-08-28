@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi página web</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1006/1006363.png">
+
+    <!-- CSS -->
+    <style>
+
+        /* ESTILOS GENERALES */
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+
+        /* MENÚ */
+
+        nav {
+            background-color: #6c3cff;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+
+        /* CONTENIDO */
+
+        .contenedor {
+            width: 80%;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #6c3cff;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+
+        /* TABLA */
+
+        table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th,
+        td {
+            border: 1px solid #333;
+            padding: 15px;
+        }
+
+        th {
+            background-color: #6c3cff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #eeeeee;
+        }
+
+
+        /* BOTÓN */
+
+        button {
+            margin-top: 25px;
+            padding: 12px 25px;
+
+            background-color: #6c3cff;
+            color: white;
+
+            border: none;
+            border-radius: 8px;
+
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4b20c9;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <!-- MENÚ -->
+
+    <nav>
+        <ul>
+
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+
+            <li>
+                <a href="horario.html">Horario</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <!-- CONTENIDO -->
+
+    <div class="contenedor">
+
+        <h1>Mi página web</h1>
+
+        <p>
+            Bienvenido a mi página.
+            Estoy aprendiendo HTML y CSS.
+        </p>
+
+
+        <!-- HORARIO -->
+
+        <h2>Mi horario de estudio</h2>
+
+        <table>
+
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+                <td>HTML</td>
+                <td>CSS</td>
+            </tr>
+
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+                <td>HTML</td>
+                <td>JavaScript</td>
+                <td>HTML</td>
+            </tr>
+
+            <tr>
+                <td>11:00 - 12:00</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+
+            <tr>
+                <td>12:00 - 13:00</td>
+                <td>JavaScript</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+            </tr>
+
+        </table>
+
+
+        <button>Estoy aprendiendo programación</button>
+
+    </div>
+
+</body>
+
+</html>
